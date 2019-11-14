@@ -9,6 +9,6 @@ WORKDIR ${WIMDIR}
 
 RUN sed -i "s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g" /etc/apk/repositories \
 && apk update \
-&& apk add git cmake \
+&& apk add git \
 && go get -u github.com/kardianos/govendor
 

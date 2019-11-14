@@ -1,0 +1,2 @@
+# Go parameters
+GO ?= go
